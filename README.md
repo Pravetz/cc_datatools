@@ -16,5 +16,5 @@ Possible parameters:
 
 	-i = input file path
 	-o = output file path
-	-c = desired state.column(1-based).
+	-c = desired column(1-based).
 	-noendl = discard(or replace, optionally) every occurence of '\n' character in strings.
