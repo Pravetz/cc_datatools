@@ -88,7 +88,7 @@ uint8_t extract_column(const CSVCE_STATE &state){
 
 int main(int argc, char **argv) {
 	if(argc == 1){
-		std::cout<<"Usage: "<<argv[0]<<" <parameters>\n\n\t\tPossible parameters:\n\t\t-i = input file path\n\t\t-o = output file path\n\t\t-c = desired state.column(1-based).\n\t\t-noendl = discard(or replace, optionally) every occurence of \'\\n\' character in strings."<<std::endl;
+		std::cout<<"Usage: "<<argv[0]<<" <parameters>\n\n\t\tPossible parameters:\n\t\t-i = input file path\n\t\t-o = output file path\n\t\t-c = desired column(1-based).\n\t\t-noendl = discard(or replace, optionally) every occurence of \'\\n\' character in strings."<<std::endl;
 		return EXIT_SUCCESS;
 	}
 	CSVCE_STATE state = { "\n", "", "", 0 };
